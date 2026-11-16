@@ -1,0 +1,6 @@
+11/14-14:22:01.114521  [**] [1:1000001:1] CUSTOM IDS ALERT: TCP SYN Port Scan Detected [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.56.102:51432 -> 192.168.56.101:35
+11/14-14:22:05.482910  [**] [1:1000002:1] CUSTOM IDS ALERT: ICMP Ping Flood Detected [**] [Classification: Attempted Denial of Service] [Priority: 2] {ICMP} 192.168.56.102 -> 192.168.56.101
+11/14-14:22:11.903412  [**] [1:1000003:1] CUSTOM IDS ALERT: Possible SSH Brute-Force Attack [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 192.168.56.102:40005 -> 192.168.56.101:22
+11/14-14:22:18.210944  [**] [1:1000004:1] CUSTOM IDS ALERT: Suspicious HTTP Directory Traversal Attempt [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.168.56.102:53910 -> 192.168.56.101:80
+11/14-14:22:18.540112  [**] [1:1000005:1] CUSTOM IDS ALERT: Suspicious HTTP SQL Injection (UNION SELECT) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.168.56.102:53912 -> 192.168.56.101:80
+11/14-14:22:18.891005  [**] [1:1000006:1] CUSTOM IDS ALERT: Automated Vulnerability Scanner Detected [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.56.102:53914 -> 192.168.56.101:80
